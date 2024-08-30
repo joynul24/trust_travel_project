@@ -4,3 +4,8 @@
 .font-merriweather {
     font-family: "Merriweather", serif;
 }
+
+li {
+    display: flex;
+    margin: auto;
+};
