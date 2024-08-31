@@ -5,7 +5,9 @@
     font-family: "Merriweather", serif;
 }
 
-li {
+.selected-place-container > li {
     display: flex;
     margin: auto;
+    gap: 10px;
+    font-size: 20px;
 };
