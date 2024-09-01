@@ -69,7 +69,7 @@
                     invigorating to travel. Travelling is the best way to learn new things, whether it be a new language
                     or new culture because you’re experiencing it first hand instead of just reading or looking at
                     pictures. It broadens your view of the world.</p>
-                <h4 class="text-2xl font-bold">Total Budget: <span>900</span>$</h4>
+                <h4 class="text-3xl font-bold">Total Budget: <span id="budget">900</span>$</h4>
             </div>
             <!-- banner image -->
             <div class="flex flex-1 justify-center">
@@ -141,13 +141,13 @@
             <ul id="selected-place-container" class="selected-place-container">
               
             </ul>
-            <p class="text-center text-3xl font-bold">Total cost: <span id="total-cost">0</span>$</p>
+            <p class="text-center text-3xl font-bold">Total cost: <span id="total-cost">0</span> $</p>
             <div class="flex justify-evenly">
-                <button class="btn btn-secondary font-extrabold">Bus +100</button>
-                <button class="btn btn-secondary font-extrabold">Train -200</button>
-                <button class="btn btn-secondary font-extrabold">Flight +500</button>
+                <button onclick="grandTotalCost('bus')" class="btn btn-secondary font-extrabold">Bus +100</button>
+                <button onclick="grandTotalCost('train')" class="btn btn-secondary font-extrabold">Train -200</button>
+                <button onclick="grandTotalCost('flight')" class="btn btn-secondary font-extrabold">Flight +500</button>
             </div>
-            <h3 class="text-center text-3xl font-bold border-t-4 border-gray-500 pt-3">Grand Total: <span>0</span>$</h3>
+            <h3 class="text-center text-3xl font-bold border-t-4 border-gray-500 pt-3">Grand Total: <span id="grand-total">0</span> $</h3>
         </div>
     </main>
     <!-- footer section -->
